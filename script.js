@@ -15,11 +15,6 @@ function dark_light_mood() {
     cals.style.backgroundColor = "white";
     cals_input.style.backgroundColor = "white";
     cals_input.style.color = "black";
-    buttons.forEach((element) => {
-      if(element.className !== "orange_color"){
-        element.style.color = "black";
-      }
-    });
   } else {
     body.style.backgroundColor = "black";
     dark_light_mood_button.innerHTML = "Light Mood";
@@ -29,11 +24,6 @@ function dark_light_mood() {
     cals.style.border = "solid 2px white";
     cals_input.style.backgroundColor = "black";
     cals_input.style.color = "white";
-    buttons.forEach((element) => {
-      if(element.className !== "orange_color"){
-        element.style.color = "white";
-      }
-    })
   }
 }
 // تعریف متغیر اد تو اینپوت ، این متغیر ما همه کاره است و قرار است تمامی کار های ماشین حساب را انجام دهد
