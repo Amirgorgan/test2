@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+   <body> 
+    <button id="dark_light_mood_button" onclick="dark_light_mood()">Light Mood</button>
+
+    <div class="calculator">
+          <input id="show_input" type="text" maxlength="15" readonly>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <button id="claer_button" onclick="add_to_input('clear')">C</button>
+          <button id="delete_button" onclick="add_to_input('delete')">D</button>
+          <button id="plus_minus_button" onclick="add_to_input('reverse')">+/-</button>
+          <button id="divide_button" class="orange_color" onclick="add_to_input('÷')">÷</button>
+          <button id="seven_button" onclick="add_to_input('7')">7</button>
+          <button id="eight_button" onclick="add_to_input('8')">8</button>
+          <button id="nine_button" onclick="add_to_input('9')">9</button>
+          <button id="multiply_button" class="orange_color" onclick="add_to_input('×')">×</button>
+          <button id="four_button" onclick="add_to_input('4')">4</button>
+          <button id="five_button" onclick="add_to_input('5')">5</button>
+          <button id="six_button" onclick="add_to_input('6')">6</button>
+          <button id="minus_button" class="orange_color" onclick="add_to_input('-')">-</button>
+          <button id="one_button" onclick="add_to_input('1')">1</button>
+          <button id="two_button" onclick="add_to_input('2')">2</button>
+          <button id="three_button" onclick="add_to_input('3')">3</button>
+          <button id="plus_button" class="orange_color" onclick="add_to_input('+')">+</button>
+          <button id="zero_button" onclick="add_to_input('0')">0</button>
+          <button id="dot_button" onclick="add_to_input('.')">.</button>
+          <button id="equal_button" class="orange_color" onclick="add_to_input('=')">=</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
